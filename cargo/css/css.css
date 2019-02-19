@@ -1,0 +1,304 @@
+/*====================================== loader style =====================================*/
+
+
+/*====================================== home page style ==================================*/
+*{
+  font-family: comic;
+}
+body h1{
+  font-family: comic;
+}
+html{
+  scroll-behavior: smooth;
+}
+#cpBtn{
+  padding: 2px 5px;
+}
+#cpBtn > div{
+  width: 20px;
+  height: 4px;
+  background: #aa0252;
+  margin: 3px 0px;
+  border-radius: 4px;
+}
+/*============================= navigation =============================*/
+.registration_form{
+  padding: 50px 100px;
+  background: #fff;
+  color: #000;
+}
+.registration_form h1{
+  text-align: center;
+  font-size: 20px;
+  text-transform: capitalize;
+}
+.registration_form input{
+  width: 300px;
+  height: 50px;
+  border-radius: 0px;
+}
+.registration_form button{
+  width: 300px;
+  height: 50px;
+  text-transform: capitalize;
+  color: #fff;
+  background: #034881;
+  border-radius: 0px;
+}
+#navbarSupportedContent ul li a{
+  color: #000;
+  font-size: 15px;
+}
+.bg-light{
+  background: #fff !important;
+}
+
+/*============================ home container ============================*/
+.home_container{
+  background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("../../images/9.jpg");
+  padding-top: 250px;
+  padding-bottom: 150px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.home_container h1{
+  text-align: center;
+  color: #fff;
+  font-size: 70px;
+}
+.home_container p{
+  color: #fff;
+  font-size: 20px;
+}
+/*============================ about_container ============================*/
+.about_container{
+  padding: 200px 0px;
+}
+.about_container h1{
+  text-align:center;
+  text-transform: capitalize;
+  font-size: 50px;
+  padding-bottom: 30px;
+}
+.about_container p{
+  text-align: center;
+  font-size: 20px;
+}
+
+/*=========================== quotation_section ===========================*/
+.quotation_section{
+  background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("../../images/11.jpg");
+  padding: 200px 0px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.quotation_section h1{
+  font-size: 100px;
+  text-align: center;
+  color: #fff;
+}
+
+/*============================ service_section ============================*/
+.service_section{
+  padding: 100px 0px;
+}
+.service_section h1{
+  text-align: center;
+  font-size: 50px;
+  text-transform: capitalize;
+  padding-bottom: 30px;
+}
+.service_row{
+  margin-bottom: 20px;
+}
+.card{
+  padding: 30px 0px;
+}
+.card h5{
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+.card p{
+  text-align: center;
+}
+.service_section i{
+  font-size: 50px;
+  text-align: center;
+  padding-top: 30px;
+  width: 100px;
+  color: #aa0252;
+  height: 100px;
+  border: 1px solid #aa0252;
+  border-radius: 100px;
+  margin: auto;
+}
+/*============================ agent_section ============================*/
+.agent_section{
+  text-align: center;
+  padding: 200px 0px;
+  background: #aa0252;
+}
+.agent_section h1{
+  text-transform: capitalize;
+  color: #fff;
+}
+.agent_section button{
+  border-radius: 0px;
+  padding: 10px 30px;
+  text-transform: capitalize;
+}
+.modal_signup h1{
+  text-align: center;
+}
+.modal_signup input{
+  width: 300px;
+  height: 50px;
+  border-radius: 0px;
+}
+.modal_signup button{
+  width: 300px;
+  height: 50px;
+  text-transform: capitalize;
+  color: #fff;
+  background: #034881;
+  border-radius: 0px;
+}
+/*============================= text_section =============================*/
+.text_section{
+  padding: 150px 0px;
+}
+.text_section h1{
+  text-align: center;
+  padding-bottom: 30px;
+  border-bottom: 1px dotted #000000;
+  font-size: 70px;
+}
+.text_section h3{
+  font-size: 50px;
+  padding-top: 20px;
+  text-align: center;
+  letter-spacing: 10px;
+}
+.image_container{
+  padding: 50px 30px;
+}
+/*============================ background_video ============================*/
+.background_video{
+  background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("../../images/10.jpg");
+  padding: 200px 0px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  /* padding: 100px 0px; */
+  color: #fff;
+  font-size: 70px;
+  font-weight: 900;
+}
+
+/*========================== our_clients_section ==========================*/
+.our_clients_section{
+  padding: 100px 0px;
+  background: #aa0252;
+}
+.our_clients_section h1{
+  text-align: center;
+  font-size: 50px;
+  color: #fff;
+  padding-bottom: 50px;
+}
+/*======================= client_testmonial_section =======================*/
+.client_testmonial_section{
+  background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("../../images/9.jpg");
+  padding: 100px 0px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.client_testmonial_section h1{
+  font-size: 50px;
+  color: #fff;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.client_testmonial_section p{
+  color: #000;
+  text-align: center;
+}
+.client_testmonial_section h4{
+  text-align: center;
+  color: #000;
+  font-size: 30px;
+  font-style: italic;
+}
+.image_part{
+  padding: 20px 0px;
+}
+.client_testmonial_section #carouselExampleIndicators{
+  background: #fff;
+  border-radius: 40px;
+  padding: 20px 0px;
+}
+
+/*=========================== contact_container ===========================*/
+.contact_container{
+  padding: 100px 0px;
+}
+.contact_container h1{
+  font-size: 50px;
+  color: #000;
+  text-align: center;
+  padding-bottom: 30px;
+}
+.address_part{
+  padding: 50px 30px;
+  text-align: center;
+}
+.address_part i{
+  font-size: 50px;
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+  border:1px solid #aa0252;
+  padding-top: 20px;
+  color: #aa0252;
+}
+.address_part p{
+  color: #000;
+  font-size: 20px;
+}
+.location{
+  padding: 20px 10px;
+  margin: 10px;
+  border-top-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
+.email{
+  padding: 20px 10px;
+  margin: 10px;
+  border-top-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
+.phone_number{
+  padding: 20px 0px;
+  margin: 10px;
+  border-top-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
+.google_map_part{
+  padding: 20px 30px;
+  border-radius: 40px;
+}
+/*========================== footer_container ==========================*/
+.footer_container{
+  background: #aa0252;
+  color: #fff;
+  text-align: center;
+  padding: 50px 0px;
+}
